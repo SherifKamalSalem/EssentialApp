@@ -23,6 +23,7 @@
 		9881715826D5AB3B00C3CFBB /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9881715726D5AB3B00C3CFBB /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		9881716226D5AC9A00C3CFBB /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9881716126D5AC9A00C3CFBB /* FeedImageDataLoaderWithFallbackCompositeTests.swift */; };
 		98A835E726D6C2F600F1913C /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A835E626D6C2F600F1913C /* FeedImageDataLoaderWithFallbackComposite.swift */; };
+		98A835EA26D6C40300F1913C /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A835E926D6C40300F1913C /* XCTestCase+MemoryLeakTracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		9881715726D5AB3B00C3CFBB /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		9881716126D5AC9A00C3CFBB /* FeedImageDataLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		98A835E626D6C2F600F1913C /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
+		98A835E926D6C40300F1913C /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		985B7FF426D2E44200F66927 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				98A835E826D6C3E400F1913C /* Helpers */,
 				985B7FF526D2E44200F66927 /* EssentialAppTests.swift */,
 				985B7FF726D2E44200F66927 /* Info.plist */,
 				9881716126D5AC9A00C3CFBB /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
@@ -171,6 +174,14 @@
 				9881715026D58E7C00C3CFBB /* EssentialFeediOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98A835E826D6C3E400F1913C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				98A835E926D6C40300F1913C /* XCTestCase+MemoryLeakTracking.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9875503526D54CDB009B570B /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
+				98A835EA26D6C40300F1913C /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				985B7FF626D2E44200F66927 /* EssentialAppTests.swift in Sources */,
 				9881716226D5AC9A00C3CFBB /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
